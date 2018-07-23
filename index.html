@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Eklavya</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Motorbike Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+	<script type="application/x-javascript">
+		addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+	</script>
+	<!-- Custom Theme files -->
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!-- font-awesome icons -->
+	<link rel="stylesheet" href="css/lightbox.css">
+	<!--//Custom Theme files-->
+	<!-- js -->
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<!-- //js -->
+	<!-- web-fonts -->
+	<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Arsenal:400,400i,700,700i" rel="stylesheet">
+	<!-- //web-fonts -->
+</head>
+
+<body>
+	<!-- banner -->
+	<div id="home" class="banner">
+		<div class="banner-agileinfo">
+			<!-- header -->
+			<div class="header">
+				<div class="container">
+					<div class="logo">
+						<h1><a href="index.html">Eklavya</a></h1>
+					</div>
+					<div class="menu">
+						<a href="" id="menuToggle"> <span class="navClosed"></span> </a>
+						<nav>
+							<a href="#home" class="active scroll">Home</a>
+							<a href="#about" class="scroll">About</a>
+							<a href="#services" class="scroll">Features</a>
+							<a href="#gallery" class="scroll">Gallery</a>
+							<a href="#contact" class="scroll">Contact</a>
+						</nav>
+						<script>
+							(function ($) {
+								// Menu Functions
+								$(document).ready(function () {
+									$('#menuToggle').click(function (e) {
+										var $parent = $(this).parent('.menu');
+										$parent.toggleClass("open");
+										var navState = $parent.hasClass('open') ? "hide" : "show";
+										$(this).attr("title", navState + " navigation");
+										// Set the timeout to the animation length in the CSS.
+										setTimeout(function () {
+											console.log("timeout set");
+											$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+										}, 200);
+										e.preventDefault();
+									});
+								});
+							})(jQuery);
+						</script>
+
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- //header -->
+			<div class="banner-text">
+				<div class="container">
+					<h2>WE OFFER THE BEST
+						<!--<span>MOTORBIKES</span>--></h2>
+					<a href="#about" class="buy btn-wayra scroll"> More About</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- welcome -->
+	<div id="about" class="welcome">
+		<div class="container">
+			<div class="welcome-agileinfo">
+				<div class="col-md-6 w3ls_welcome_left">
+					<div class="w3ls_welcome_right1">
+						<h3 class="agileits-title"><span>A</span>bout Us</h3>
+						<h6>Lorem ipsum dolor <span> Consectetur </span> sit adipisicing. </h6>
+						<p>Quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur Quis autem
+							vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem
+							eum fugiat quo voluptas nulla pariatur Duis finibus sollicitudin libero, sed tempor diam euismod sed. Sed interdum
+							odio a finibus gravida. Aliquam tincidunt nisl nec urna euismod, ullamcorper scelerisque magna vulputate. .</p>
+					</div>
+				</div>
+				<div class="col-md-6 w3ls_welcome_right">
+					<div class="agileits_w3layouts_welcome_grid">
+						<img src="images/image1.jpg" alt=" " class="img-responsive" />
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //welcome -->
+	<!-- slid -->
+	<div class="slid jarallax">
+		<div class="slid-text">
+			<h4>24/7 Customer Service Support</h4>
+			<p>Proin tincidunt sodales faucibus. Curabitur ut metus sed urna dignissim sodales ac a tellus. Sed varius justo tellus,
+				at convallis libero cursus non. In malesuada accumsan felis, a imperdiet arcu blandit sed. Ut id faucibus eros. Fusce
+				sed vulputate dui, non consectetur felis. Etiam id enim sem. Suspendisse commodo tempor magna </p>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+	<!-- //slid -->
+	<!-- services -->
+	<div id="services" class="services">
+		<div class="container">
+			<h3 class="agileits-title w3title2"><span>F</span>eatures</h3>
+			<div class="services-row-agileinfo">
+				<div class="col-sm-4 col-xs-6 services-w3grid">
+					<span class="fa fa-map-marker hi-icon" aria-hidden="true"></span>
+					<h5>Convinient Location</h5>
+					<p>Itaque earum rerum hic a sapiente delectus finibus gravida</p>
+				</div>
+				<div class="col-sm-4 col-xs-6 services-w3grid">
+					<span class="fa fa-wifi hi-icon" aria-hidden="true"></span>
+					<h5>Free Wifi</h5>
+					<p>Itaque earum rerum hic a sapiente delectus finibus gravida</p>
+				</div>
+				<div class="col-sm-4 col-xs-6 services-w3grid">
+					<span class="fa fa-cutlery hi-icon" aria-hidden="true"></span>
+					<h5>Food</h5>
+					<p>Itaque earum rerum hic a sapiente delectus finibus gravida</p>
+				</div>
+				<div class="col-sm-4 col-xs-6 services-w3grid">
+					<span class="fa fa-bed hi-icon" aria-hidden="true"></span>
+					<h5>Bed</h5>
+					<p>Itaque earum rerum hic a sapiente delectus finibus gravida</p>
+				</div>
+				<div class="col-sm-4 col-xs-6 services-w3grid">
+					<span class="fa fa-lock hi-icon" aria-hidden="true"></span>
+					<h5>Locker</h5>
+					<p>Itaque earum rerum hic a sapiente delectus finibus gravida</p>
+				</div>
+				<div class="col-sm-4 col-xs-6 services-w3grid">
+					<span class="fa fa-book hi-icon" aria-hidden="true"></span>
+					<h5>Library</h5>
+					<p>Itaque earum rerum hic a sapiente delectus finibus gravida</p>
+				</div>
+				<div class="col-sm-4 col-xs-6 services-w3grid">
+					<span class="fa fa-newspaper-o hi-icon" aria-hidden="true"></span>
+					<h5>News Paper</h5>
+					<p>Itaque earum rerum hic a sapiente delectus finibus gravida</p>
+				</div>
+				<div class="col-sm-4 col-xs-6 services-w3grid">
+					<span class="fa fa-motorcycle hi-icon" aria-hidden="true"></span>
+					<h5>Parking</h5>
+					<p>Itaque earum rerum hic a sapiente delectus finibus gravida</p>
+				</div>
+				<div class="col-sm-4 col-xs-6 services-w3grid">
+					<span class="fa fa-shield hi-icon" aria-hidden="true"></span>
+					<h5>Security</h5>
+					<p>Itaque earum rerum hic a sapiente delectus finibus gravida</p>
+				</div>
+				<div class="col-sm-4 col-xs-6 services-w3grid">
+					<span class="fa fa-users hi-icon" aria-hidden="true"></span>
+					<h5>Cleaning Staff</h5>
+					<p>Itaque earum rerum hic a sapiente delectus finibus gravida</p>
+				</div>
+				<div class="col-sm-4 col-xs-6 services-w3grid">
+					<span class="fa fa-inr hi-icon" aria-hidden="true"></span>
+					<h5>Online Payment</h5>
+					<p>Itaque earum rerum hic a sapiente delectus finibus gravida</p>
+				</div>
+				<div class="col-sm-4 col-xs-6 services-w3grid">
+					<span class="fa fa-gift hi-icon" aria-hidden="true"></span>
+					<h5>All under one roof</h5>
+					<p>Itaque earum rerum hic a sapiente delectus finibus gravida</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //services -->
+
+	<!-- gallery -->
+	<div class="gallery" id="gallery">
+		<h3 class="agileits-title w3title2"><span>G</span>allery</h3>
+		<div class="gallery-info">
+			<div class="col-sm-6 gallery-grids glry-grid1">
+				<div class="gallery-grids-top">
+					<a class="b-link-stripe b-animate-go" href="images/img2.jpeg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ">
+						<img src="images/img2.jpeg" class="img-responsive" alt=""/>
+						<div class="b-wrapper">
+							<span class="b-animate b-from-left"> 
+								<i class="fa fa-arrows-alt" aria-hidden="true"></i>
+							</span>					
+						</div>
+					</a>
+				</div>
+				<div class="gallery-grids-top">
+					<div class="col-sm-6 col-xs-6 bottom-grids">
+						<a class="b-link-stripe b-animate-go" href="images/2.jpeg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ">
+							<img src="images/2.jpeg" class="img-responsive" alt=""/>
+							<div class="b-wrapper">
+								<span class="b-animate b-from-left">
+									<i class="fa fa-arrows-alt" aria-hidden="true"></i>
+								</span>					
+							</div>
+						</a>
+					</div>
+					<div class="col-sm-6 col-xs-6 bottom-grids">
+						<a class="b-link-stripe b-animate-go" href="images/3.jpeg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ">
+							<img src="images/3.jpeg" class="img-responsive" alt=""/>
+							<div class="b-wrapper">
+								<span class="b-animate b-from-left">
+									<i class="fa fa-arrows-alt" aria-hidden="true"></i>
+								</span>					
+							</div>
+						</a>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="col-sm-3 col-xs-6 gallery-grids glry-grid2">
+				<a class="b-link-stripe b-animate-go" href="images/2.jpeg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ">
+					<img src="images/2.jpeg" class="img-responsive" alt=""/>
+					<div class="b-wrapper">
+						<span class="b-animate b-from-left">
+							<i class="fa fa-arrows-alt" aria-hidden="true"></i>
+						</span>					
+					</div>
+				</a>
+				<a class="b-link-stripe b-animate-go" href="images/image2.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ">
+					<img src="images/image2.jpg" class="img-responsive" alt=""/>
+					<div class="b-wrapper">
+						<span class="b-animate b-from-left">
+							<i class="fa fa-arrows-alt" aria-hidden="true"></i>
+						</span>					
+					</div>
+				</a>
+				<a class="b-link-stripe b-animate-go" href="images/1.jpeg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ">
+					<img src="images/1.jpeg" class="img-responsive" alt=""/>
+					<div class="b-wrapper">
+						<span class="b-animate b-from-left">
+							<i class="fa fa-arrows-alt" aria-hidden="true"></i>
+						</span>					
+					</div>
+				</a>
+				<a class="b-link-stripe b-animate-go" href="images/2.jpeg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ">
+					<img src="images/2.jpeg" class="img-responsive" alt=""/>
+					<div class="b-wrapper">
+						<span class="b-animate b-from-left">
+							<i class="fa fa-arrows-alt" aria-hidden="true"></i>
+						</span>					
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-3 col-xs-6 gallery-grids glry-grid3">
+				<a class="b-link-stripe b-animate-go" href="images/image6.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ">
+					<img src="images/image6.jpg" class="img-responsive" alt=""/>
+					<div class="b-wrapper">
+						<span class="b-animate b-from-left">
+							<i class="fa fa-arrows-alt" aria-hidden="true"></i>
+						</span>					
+					</div>
+				</a>
+				<a class="b-link-stripe b-animate-go" href="images/image1.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ">
+					<img src="images/image1.jpg" class="img-responsive" alt=""/>
+					<div class="b-wrapper">
+						<span class="b-animate b-from-left">
+							<i class="fa fa-arrows-alt" aria-hidden="true"></i>
+						</span>					
+					</div>
+				</a>
+				<a class="b-link-stripe b-animate-go" href="images/3.jpeg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ">
+					<img src="images/3.jpeg" class="img-responsive" alt=""/>
+					<div class="b-wrapper">
+						<span class="b-animate b-from-left">
+							<i class="fa fa-arrows-alt" aria-hidden="true"></i>
+						</span>					
+					</div>
+				</a>
+			</div>
+			<div class="clearfix"></div>
+			<script src="js/lightbox-plus-jquery.min.js">
+
+			</script>
+		</div>
+	</div>
+	<!-- //gallery -->
+	<!-- contact -->
+	<div class="contact" id="contact">
+		<div class="container">
+			<h3 class="agileits-title w3title2"><span>C</span>ontact Us</h3>
+			<div class="contact-grids">
+				<div class="col-md-5 address">
+					<h4>Contact Us :</h4>
+					<div class="agile_social_icons">
+						<ul class="agileits_social_list">
+							<li><a href="https://ru-ru.facebook.com/%E0%A4%8F%E0%A4%95%E0%A4%B2%E0%A4%B5%E0%A5%8D%E0%A4%AF-%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%B7%E0%A5%8D%E0%A4%A0%E0%A4%BE%E0%A4%A8-%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B8%E0%A5%80-%E0%A4%85%E0%A4%AD%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B8%E0%A4%BF%E0%A4%95%E0%A4%BE-%E0%A4%AA%E0%A5%81%E0%A4%A3%E0%A5%87-1659183960816716/"
+								 class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<!-- <li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+							<li><a href="#" class="w3_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li> -->
+						</ul>
+					</div>
+					<p>Sr. No.94, Ingale nagar, Ambedkar Chowk</p>
+					<p>Warje-Karve nagar, Pune 58</p>
+					<p>Contact : +91 8080468282 / 9028736028</p>
+					<!-- <p>FAX : +1 888 4444</p>
+					<p>Email : <a href="mailto:example@mail.com">mail@example.com</a></p> -->
+				</div>
+				<div class="col-md-7 contact-form">
+					<form action="#" method="post">
+						<input type="text" name="Name" placeholder="Name" required="">
+						<input type="email" class="email" name="Email" placeholder="Email" required="">
+						<textarea placeholder="Message" name="Message" required=""></textarea>
+						<input type="submit" value="SUBMIT">
+					</form>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="w3-agilemap">
+				<iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%E0%A4%8F%E0%A4%95%E0%A4%B2%E0%A4%B5%E0%A5%8D%E0%A4%AF%20%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%B7%E0%A5%8D%E0%A4%A0%E0%A4%BE%E0%A4%A8%20%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B8%E0%A5%80%20%E0%A4%85%E0%A4%AD%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B8%E0%A4%BF%E0%A4%95%E0%A4%BE+(%E0%A4%8F%E0%A4%95%E0%A4%B2%E0%A4%B5%E0%A5%8D%E0%A4%AF%20%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%B7%E0%A5%8D%E0%A4%A0%E0%A4%BE%E0%A4%A8%20%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B8%E0%A5%80%20%E0%A4%85%E0%A4%AD%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B8%E0%A4%BF%E0%A4%95%E0%A4%BE)&amp;ie=UTF8&amp;t=&amp;z=18&amp;iwloc=B&amp;output=embed"
+				 frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Google map generator</a></iframe>
+			</div>
+		</div>
+	</div>
+	<!-- //contact -->
+	<!-- footer -->
+	<div class="footer">
+		<div class="footer-bottom">
+			<p>© 2018 Eklavya. All rights reserved</p>
+		</div>
+	</div>
+	</div>
+	<!-- //footer -->
+	<!-- jarallax -->
+	<script src="js/SmoothScroll.min.js"></script>
+	<script src="js/jarallax.js"></script>
+	<script type="text/javascript">
+		/* init Jarallax */
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script>
+	<!-- //jarallax -->
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
+		});
+	</script>
+	<!-- //end-smooth-scrolling -->
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+		});
+	</script>
+	<!-- //smooth-scrolling-of-move-up -->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
